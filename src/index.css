@@ -1,0 +1,7 @@
+/* src/index.css */
+@import "tailwindcss";
+
+.bg-default { background-color: var(--bg-default); }
+.bg-paper { background-color: var(--bg-paper); }
+.text-primary { color: var(--text-primary); }
+.border-divider { border-color: var(--divider-color); }

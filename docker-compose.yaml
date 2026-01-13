@@ -1,0 +1,7 @@
+services:
+  genomiki-web:
+    build: .
+    container_name: genomiki-web
+    ports:
+      - "80:80"
+    restart: unless-stopped
