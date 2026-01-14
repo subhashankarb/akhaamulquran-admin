@@ -1,4 +1,6 @@
-const BASE_URL = 'http://192.168.31.28:4000/api/auth'
+import config from "../config/env"
+
+const BASE_URL = `${config.apiUrl}/api/auth`
 
 async function logFetch(url: string, options: RequestInit) {
   console.log('[API REQUEST]', options.method, url, options.body)
